@@ -5,7 +5,7 @@
 class app_logger
 {
 public:
-    app_logger();
+    app_logger(std::string log_level);
     std::shared_ptr<spdlog::logger> get_logger();
 
 private:
